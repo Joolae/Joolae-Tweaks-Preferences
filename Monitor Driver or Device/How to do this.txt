@@ -1,0 +1,7 @@
+A.) Do 1& 4 if it's your case
+B.) other wise do 2>3>4 
+
+Others:
+Set monitor's latency to maximum overdrive if ghosting /artifacts is not that bad
+You can also try other color profiles from Color Management
+CIE RGB works the fastest for my system but with more washed colors (go with your preferences ^^)

@@ -1,0 +1,9 @@
+Currently on radeon gpu, forgot what I'll do for nvidia and it might not be updated for my tests...
+
+Other stuff
+Install driver: Minimal Install
+for Setting clocks and etc. I use MoreClockTool - check this once in awhile since the profile gets reset upon windows update or a system crash
+Download here it's listed there:
+https://www.igorslab.de/en/download-area-new-version-of-morepowertool-mpt-and-final-release-of-redbioseditor-rbe/
+
+regarding morepowertool, tweaks I found here does not reduce latency in my case (RX6800) explore on your own if interested.

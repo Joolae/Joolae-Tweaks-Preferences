@@ -1,0 +1,6 @@
+https://notes.ponderworthy.com/additional-critical-worker-threads-in-windows-speed-tweak
+
+32-bit System = <>Gb RAM * 6 
+64-bit System = <>Gb RAM * 3
+
+e.g. Windows 10 64-bit + 16Gb RAM = 16 * 3 = 48 decimal

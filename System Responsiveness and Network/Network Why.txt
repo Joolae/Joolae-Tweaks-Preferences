@@ -1,0 +1,3 @@
+Big diff in latency vs any gains for network stuff 
+so keep throttling index to hex 10 and make sure Interrupt moderation is enabled
+The other settings/tweaks available online is for testing to your preference ^^.

@@ -1,0 +1,7 @@
+How to imitate bcdedit profile
+1. cmd Admin
+2. to set (if not exisiting)/change a value
+▶ bcdedit /set tscsyncpolicy Legacy
+
+My profile is for HPET enabled (default)
+*To delete/revert: bcdedit /deletevalue tscsyncpolicy

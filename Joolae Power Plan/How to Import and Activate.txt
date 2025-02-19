@@ -1,0 +1,4 @@
+How to import and activate
+1. cmd Admin
+2. powercfg -import "<Folder full path>\Joolae.pow"
+3. Go to Power Options (Control Panel) and choose Joolae Powah Plan

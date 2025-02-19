@@ -1,0 +1,9 @@
+How to setup turn off powermanagement script every startup
+1. Open Task Scheduler 
+2. Create Basic/ New Task
+3. Set Trigger = upon logon
+4. Set Action as: Start a Program
+■ Program/Script
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+■ Add Arguments
+-NoExit -File "D:\Documents\Stuff\turnoffpowermanagement.ps1"

@@ -1,0 +1,7 @@
+Edge is opened by edge-based windows apps as well, delete if not used.
+1. Powershell admin 
+   ▶ iwr -useb https://christitus.com/win | iex
+	Go to tweaks> check remove Microsoft Edge > Run Tweaks
+2. Delete everything > C:\Program Files (x86)\Microsoft\Edge  
+3. Task Scheduler - Remove everything Edge related
+4. Task Manager - remove edge startup

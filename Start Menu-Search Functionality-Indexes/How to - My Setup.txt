@@ -1,0 +1,26 @@
+◆ I don't use windows'start menu
+I instead use Open-shell and totally disable the windows' one permanently
+
+	■ Download from here
+	https://github.com/Open-Shell/Open-Shell-Menu/releases
+	you can load my profile included in this folder as well
+	   ▶ I disable all windows key shortcuts for my profile, I click the start menu when I want to search PROGRAMS and SETTINGS ONLY
+
+	■ To disable windows start menu permanently 
+		1. Go to 1Click-StartMenu-main folder
+		2. Run Add-to-Desktop-Right-click.bat
+		3. Disable it from right click context menu in desktop
+
+◆ In order to gain more performance: 
+	■ I disable windows search service 
+	    1. Services > Windows Search > Stop > Set Startup Type to DISABLED
+		2. Go to 1Click-Search-Main folder and same thing as above ^^
+	■ I uncheck indexed contents for all of my drives - Do this if you're gonna use Everything tool.
+	  Open-shell has built in search bar but can only do programs, windows settings, control-panel
+	  In order to search on a file-level I use Everything Tool instead (Much faster and better perfomance for system) download from here 
+	  https://www.voidtools.com/downloads/
+	    ▶ I don't use flow launcher with it and I set the shortcut as CTRL+ALT+SPACE and use it when I'm searching for files
+		
+◆ As bonus you can also disable TextInputHost permanently: Go to 1Click-TextInputHost-main ^^
+
+◆ READ: for 1 cliok stuff, need to re-execute once you do sfc
