@@ -1,0 +1,29 @@
+Setup for Virtualization 1st using HeSuVi:
+https://sourceforge.net/p/hesuvi/wiki/Help/#71-virtualization
+▶ My audio setup is a little bit simple: Topping E30 + L30 stack through USB (no soundcard), AKG K702 headphones, Edifier speakers.
+    The other setups in the guide above won't work for me, the only option available and suitable for me is Audio repeater KS (no additional latency + no hiccups)
+	Once your done with the setup choose your HRIR and just make sure your connection is ticked on in Hesuvi: Additional Tab> Device Filters
+	
+	*7.1 Surround Sound setup for VB Input cable (Right click > Configure speakers)
+	- I'm not sure why but the setup shown for (VB Cable Input Configure Speakers - 1 & 2.png) is the best in my case, but mileage may vary I guess especially if you have a different setup and #of speakers/source. You can copy how I set it up tho. 
+	    Add side pairs only + tick on full range speakers for front left and right only.
+
+	
+▶ You could sort of "hack" and not do this setup by initiating virtualization through windows instead (e.g. enabling windows sonic or dolby atmos) then using HeSuVi as is for trying the HRIRs but it doesn't sound as great as compared to doing it through Audio repeater KS. The EQs are messed up as well by combining 2 virtualizations.
+
+
+You'll know that any virtualization is working properly when doing the 7.1 test in HeSuVi does the following:
+- Correct and discernable staging of 8 directions in the sample - it is important to check as incorrect setup could mess up directionality and could be noticed in the 7.1 test (i.e. mirrored direction for rear-right and rear-left)
+- The last (8th) direction mentioned is the rear and it would be simple bass hit coming from the rear (this disappers when virtualization isn't working)
+- You can also confirm that your device is now in 7.1 mode in Equalizer APO configuration editor (Equalizer APO Configuration Editor.png)
+
+
+If you have custom HRIRs just paste them here to be added: 
+	C:\Program Files\EqualizerAPO\config\HeSuVi\hrir
+	
+◈ Best HRIRs imo for gaming: 
+a16_realizer.wav = realistic + out of your head sound stage
+ooyh0.wav = more pronounced out of your head sound stage + sharp 
+Note: Just give it a try, the out of your head experience is a bit weird the 1st time while using headphones/ earphones. After a day or 2 you'll get use to it and may never go back.
+
+for other use - just pick what you like.

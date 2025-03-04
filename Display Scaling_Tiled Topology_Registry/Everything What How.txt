@@ -1,0 +1,46 @@
+CRU EDID editor for monitor - be familiar with it first, 
+note: you can reset your profile back and restart your display drivers.... so less worry ^^
+
+Find it here:
+https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU
+Some other example reference moving around this app:
+https://www.youtube.com/watch?v=eFIzKW00iPo
+
+
+My profile:
+Goal is to do Display Scaling, Tiled Display Topology, and eliminate other unused bloats from EDID.
+
+■ 1. Red Container (CRU Profile - 1.png)
+	▶ Make sure you have a singular profile active, delete inactive profiles and visit this application once in awhile as it could generate new profiles from updates and etc. 
+	Aside from this delete the inactive EDID profile/s included in this registry:
+	Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\DISPLAY
+	     - Use power run on Registry Editor to accomplish this
+		 - Using my registry as an example (Display Registry.png): 
+		 "VSC3B3B" is my monitor ID while  "7&1e8d770f&7&UID260" is the key for EDID profile that is currently active, the keys for the unused ones should appear under the monitor ID key and should be deleted.
+	▶ Find an entry for for the default resolution at the highest refresh rate available for your monitor then make sure to copy that profile before deleting anything (i.e. CRU Profile - 2.png)
+	▶ Delete/ Deactivate all resolutions in 
+	     - Established Resolutions
+		 - Detailed Resolutions (for some reason resolutions created here have higher latency than in the extension blocks)
+		 - Standard Resolutions
+		 
+■ 2. Green Container (CRU Profile - 1.png)
+	▶ Start with creating your resolutions  (default and stretched or whatever you need) on the extension block from the copied profile
+	    - My monitor's default extension block was: CTA-861
+		- Create your desired resolutions in the detailed resolutions (CRU Profile - 3.png: red container)
+		    just add and paste the default profile with the highest refresh rate, then just change the active horizontal pixels and vertical lines (CRU Profile - 2.png: green container)
+			YES, both changing the timings (e.g. CVT, Exact Reduced) or having an integer refresh rate are not noticeable on my end so no need to do those...
+		- After creating the resolutions, re-arrange the resolutions such that your default resolution should be on the bottom-most (i.e. CRU Profile - 3.png: red container)
+		- In the datablocks section (CRU Profile - 3.png: green container) delete what you think you would not use: for me I left Freesync range and colorimetry there and have deleted stuff like speakers, HDMI, TV 
+	▶ Just press OK to exit and save the extension block
+	▶ Now for tiled display topology just add another extension block  (CRU Profile - 1.png: green container)
+	    DisplayID 2.0 = If you're using DP
+		DisplayID 1.3 = If you're using HDMI (haven't tested on this)
+		
+		- then add a datablock for Tiled display topology (CRU Profile - 4.png)
+	▶ Just press OK to everything to exit and you're done with CRU setup.
+	
+■ 3. Setting up GPU for Display Scaling
+	▶ Using SRE.exe delete all GPU Resolution Profiles then press OK.
+
+	▶ Nvidia: Perform scaling on display + Override + No Scaling 
+	▶ Radeon: GPU Scaling OFF + Scaling mode: Center	
