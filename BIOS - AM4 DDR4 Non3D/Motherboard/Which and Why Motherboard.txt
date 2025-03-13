@@ -1,0 +1,15 @@
+Stick to what's stated here, if no mention of it, then assume auto or default. ^^
+
+■ VGA Detection - Ignore (I'm using a GPU)
+■ SATA Hot Plugs - Disabled
+■ HD Audio Controller - Disabled (Only because I'm using my audio through a DAC connected via USB to my PC).
+
+
+■ Parallel Port - Disabled (Enable if you need for your old device like printer smth)
+■ Serial Port - Disabled (Enable if you need for your old device like printer smth)
+
+■ Re-Size Bar - Enabled , If you have a very high-end hardware playing non demanding games try turning this off and observe for better latency, usually it is but for my setup it wasn't worth it.
+■ ASPM Control - Disabled
+
+■ XHCI Hand-off - Disabled
+■ Legacy USB Support - disabled, enable if you need

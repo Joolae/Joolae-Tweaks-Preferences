@@ -1,0 +1,1 @@
+Tweaks are mostly targeting on input latency, be aware of that. Know how to revert the tweaks that you would be attempting to implement in case of instability. Hit me up on discord (Joolae) if you have something fresh tweak for me to try. I'm mostly open-minded as long as I can understand it or it is not something sketchy. I'll give you my feedback on it ^^.

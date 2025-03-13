@@ -1,0 +1,4 @@
+Optional cause we should always assume worst-cause scenario for you ^^
+
+Else, 
+Disable TPM and Secure Boot cause you're in Windows 10 anyway.......if you're in win11 you need these enabled for some apps/games

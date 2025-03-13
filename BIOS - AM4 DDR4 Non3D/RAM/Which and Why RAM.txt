@@ -1,0 +1,17 @@
+Stick to what's stated here, if no mention of it, then assume auto or default. ^^
+
+■ XMP - Activate your OC Profile for your RAM, it should function most of the time as long as you built your PC well in terms of compatibility.
+■ FCLK Frequency - Set it to half of your running frequency (e.g. Mine's at 3600MHz for XMP so I set it at 1800MHz).
+■ UCLK DIV1 Mode - UCLK==MEMCLK
+
+■ Power Down Enable - disabled
+■ TSME - disabled
+■ BankGroupSwap - disabled
+■ BankGroupSwapAlt - Enabled
+■ DRAM Latency Enhance - motherboard setting (try Enabled setting 1st if yours is stable with that: Enable > motherboard setting > disabled) 
+
+■ tRRD_S - 4
+■ tRRD_L - 8
+■ tFAW - 20
+
+*Test for stability I've included a mem test program for you.

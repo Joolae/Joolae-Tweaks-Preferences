@@ -1,0 +1,23 @@
+Stick to what's stated here, if no mention of it, then assume auto or default. ^^
+
+■ PBO - disabled because my power plan does not have idle states, so this is not needed for my case. 
+            Previously I was doing a PBO Advanced with all negative cores @ -26 setup but Temperatures and clocks are almost the same when idle states are disabled.
+■ Global C-states - disabled
+■ Power Supply Current - Typical Current Idle
+■ IOMMU - disabled
+■ LN2 Mode 1 - disabled
+■ CPPC - disabled
+■ CPPC Preferred Cores - disabled
+
+■ SVM Mode - disabled (Enable if you need virtualization e.g. Android Emulators)
+■ NX Mode - disabled
+■ PSS Support - disabled
+■ Performance Regulator - disabled
+■ Spread Spectrum - disabled
+
+■ FCH Base Clock - 100.0
+
+■ LCLK DPM - disabled
+
+■ LN2 Mode - disabled
+

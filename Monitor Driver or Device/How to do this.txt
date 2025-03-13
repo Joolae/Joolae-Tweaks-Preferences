@@ -1,7 +1,9 @@
 A.) Do 1& 4 if it's your case
 B.) other wise do 2>3>4 
+C.) Try Generic PnP Monitor Enabled with sRGB
 
 Others:
 Set monitor's latency to maximum overdrive if ghosting /artifacts is not that bad
 You can also try other color profiles from Color Management
-CIE RGB works the fastest for my system but with more washed colors (go with your preferences ^^)
+CIE RGB works the fastest for my system but with more washed colors (go with your preferences ^^) 
+03/2025: Try Generic PnP Monitor Enabled with sRGBTry Generic PnP Monitor Enabled with sRGB IEC... + ICC viewing conditions (Color Management - 3&4 .png) - could be as fast as the setups previously but with better colors
